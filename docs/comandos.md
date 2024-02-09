@@ -34,8 +34,12 @@ Verifica o status atual da branch local com base em commits, untracked files e d
 ```
 git status
 ```
-Adiciona uma alteração aos arquivos rastreáveis.
+Adiciona um arquivo/diretório na lista de arquivos rastreados pelo git na branch local.
 ```
-git add <nome do arquivo>
+git add <nome do arquivo/diretório>
+```
+Para adicionar todos os untracked files no diretório raiz.
+```
+git add .
 ```
 
