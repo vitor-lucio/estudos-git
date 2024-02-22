@@ -1,6 +1,8 @@
 # Comandos
 
 ### Configurações gerais
+[git config](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
+
 Lista todas as configurações definidas.
 ```
 git config --list
@@ -25,11 +27,17 @@ git config --global user.name
 git config --global user.email
 ```
 ### Repositório local
+[git init](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init)
+
 Transforma o diretório em um projeto git local.
 ```
 git init
 ```
 ### Adicionando mudanças
+
+[git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
+[git add](https://www.atlassian.com/git/tutorials/saving-changes)
+
 Verifica o status atual da branch local com base em commits, untracked files e diferenças com relação a branch remota.
 ```
 git status
@@ -43,3 +51,15 @@ Para adicionar todos os untracked files no diretório raiz.
 git add .
 ```
 
+### Removendo mudanças da staging area
+
+[git rm](https://www.atlassian.com/git/tutorials/undoing-changes/git-rm)
+
+Remove 1 arquivo ou coleção de arquivos da staging area
+```
+git rm --cached <arquivo/diretório>
+```
+Remove todos os arquivos da staging area
+```
+git rm --cached -r .
+```
