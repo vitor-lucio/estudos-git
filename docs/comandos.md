@@ -69,3 +69,12 @@ Salva mudanças, na staging área, no repositório local com uma mensagem
 ```
 git commit -m "<mensagem de commit>"
 ```
+
+### Mostrar diff de arquivos
+[git diff](https://www.atlassian.com/git/tutorials/saving-changes/git-diff)
+
+
+Mostra o diff de todos os arquivos no repositório local comparado com o repositório remoto
+```
+git diff
+```
