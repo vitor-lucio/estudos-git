@@ -34,7 +34,6 @@ Transforma o diretório em um projeto git local.
 git init
 ```
 ### Adicionando mudanças
-
 [git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
 [git add](https://www.atlassian.com/git/tutorials/saving-changes)
 
@@ -52,7 +51,6 @@ git add .
 ```
 
 ### Removendo mudanças da staging area
-
 [git rm](https://www.atlassian.com/git/tutorials/undoing-changes/git-rm)
 
 Remove 1 arquivo ou coleção de arquivos da staging area
@@ -62,4 +60,12 @@ git rm --cached <arquivo/diretório>
 Remove todos os arquivos da staging area
 ```
 git rm --cached -r .
+```
+
+### Salvando mudanças no repositório local
+[git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+
+Salva mudanças, na staging área, no repositório local com uma mensagem
+```
+git commit -m "<mensagem de commit>"
 ```
